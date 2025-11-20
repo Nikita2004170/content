@@ -44,7 +44,7 @@ const ThemeBtn = () => {
       "></div>
 
       <span className="ml-3 text-3xl font-bold text-white-900 dark:text-black-100">
-             {themeMode === "light" ? "🌚" : "🌞"}
+             {themeMode === "light" ?  "🌞": "🌚"}
       </span>
     </label>
   );
